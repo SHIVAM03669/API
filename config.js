@@ -8,7 +8,7 @@ const config = {
   isKalvian: process.env.IS_KALVIAN === 'true',
 };
 
-if (process.env.IS_KALVIAN === 'true'){
+if (process.env.isKalvian === 'true'){
   console.log('Kalvian mode is enabled');
 }
 
